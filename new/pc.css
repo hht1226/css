@@ -1,10 +1,10 @@
 :root {
-  --bg: url("https://www.toptal.com/designers/subtlepatterns/patterns/sun-pattern.png");
+  --bg: url("https://github.com/hht1226/css/blob/master/%EC%8B%A0%EA%B7%9C/leaf-1331952_960_720.png?raw=true");
   --color: #0009;
   --logoURL: url(여기에 로고 주소 입력);
   --logoWidth: 200px;  /* 로고 너비 */
-  --before: "";  /* 접속자 수 앞 문구 */
-  --after: "";  /* 접속자 수 뒤 문구 */
+  --before: "하스스톤 대회";  /* 접속자 수 앞 문구 */
+  --after: "명 준비중!!";  /* 접속자 수 뒤 문구 */
 }
 
 * {
@@ -31,19 +31,19 @@ a:focus {
   text-decoration: none;
 }
 
-/* 트게더 로고 ( 없으면 주석처리 하세요 ) */
+/* 트게더 로고 ( 없으면 주석처리 하세요 )
 header .row>div:nth-child(1)>a {
   display: block;
   width: var(--logoWidth);
   height: 50px;
   background: var(--logoURL) no-repeat;
   background-size: auto 50px;
-}
+} */
 
-/* 기본 트게더 로고 제거 ( 없으면 주석처리 하세요 ) */
+/* 기본 트게더 로고 제거 ( 없으면 주석처리 하세요 )
 header .row>div:nth-child(1)>a>img {
   display: none;
-}
+} */
 
 header #right-search-form>input[type=text],
 header #right-search-form>input[type=text]::placeholder {
