@@ -1,11 +1,12 @@
 :root {
   --bg: url("https://github.com/hht1226/css/blob/master/new/leaf.png?raw=true");
-  --color: #0009;
+  --color: #04B404;
   --logoURL: url(여기에 로고 주소 입력);
   --logoWidth: 200px;  /* 로고 너비 */
   --before: "하스스톤 대회";  /* 접속자 수 앞 문구 */
   --after: "명 준비중!!";  /* 접속자 수 뒤 문구 */
 }
+
 
 * {
   transition: 0.2s;
