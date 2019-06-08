@@ -1,4 +1,9 @@
-/* 배경 */
+html {
+  background: url("https://github.com/hht1226/css/blob/master/new/leaf.png?raw=true");
+  height: auto;
+}
+
+/* 배경 
 
 body {
 
@@ -6,7 +11,7 @@ body {
 
         /* ex) background: #ffffff; */
 
-} 
+} */
 
 
 /* 로고 */
