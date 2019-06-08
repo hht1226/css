@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
+
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #069415;
+  background: white;
+}
+
+#article-list #article-list-category>a {
+  background: white;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #069415;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #069415;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #069415;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #069415;
+  border-color: #069415;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #069415;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #069415;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #069415;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #069415;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #069415 !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #069415;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #069415;
+}
+
+.btn-primary {
+  background: #088A08 !important;
+}
+
+/* ¸ð¹ÙÀÏ */
+
+#header-top-notice {
+  display: none;
+}
+
+header {
+  background-color: #aced84;
+  border-bottom-color: #088A08;
+}
+
+header>#header-area>a>h1 {
+  background: url('http://tgd.kr/assets/images/logo_mobile.png') no-repeat;
+  background-size: auto 36px;
+  background-repeat: no-repeat;
+  height: unset !important;
+}
+
+header>#header-area>#header-search-link {
+  color: #088A08;
+}
+
+header>#header-area>#header-bar-link {
+  color: #088A08;
+}
+
+header>#header-search-bar #header-search-btn {
+  color: #088A08;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+  display: none;
+}
+
+header>#header-search-bar #header-search-input {
+  border-color: #088A08;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+  color: #069415;
+  letter-spacing: -0.05em !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+  color: #069415;
+}
+
+#nav#nav>.nav-header {
+  background-color: #069415;
+  color: white;
+}
