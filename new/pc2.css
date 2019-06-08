@@ -1,6 +1,6 @@
 
 html {
-  background: var(url("https://github.com/hht1226/css/blob/master/new/leaf.png?raw=true"));
+  background: url("https://github.com/hht1226/css/blob/master/new/leaf.png?raw=true");
   height: auto;
 }
 
